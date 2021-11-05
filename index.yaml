@@ -1,130 +1,31 @@
 apiVersion: v1
 entries:
-  accountapp:
+  acme:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-11-05T15:34:49.033075653Z"
-    description: A Helm chart for accounts.jenkins.io
-    digest: a28eb43471100cf41e1d5f12bd6450644f2bd61c44682a17750fc98a88a53644
-    maintainers:
-    - name: timja
-    name: accountapp
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/accountapp-0.0.1/accountapp-0.0.1.tgz
-    version: 0.0.1
-  custom-distribution-service:
-  - apiVersion: v1
-    appVersion: 0.0.5
-    created: "2021-11-05T15:34:49.240182766Z"
-    description: custom-distribution-service
-    digest: b637c2835d3ae43faf2975d7d82e5d0623ccdbc30487bbe72550ced9269df60e
-    name: custom-distribution-service
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/custom-distribution-service-0.2.0/custom-distribution-service-0.2.0.tgz
-    version: 0.2.0
-  incrementals-publisher:
-  - apiVersion: v1
-    appVersion: v1.4.0
-    created: "2021-11-05T15:34:49.44435306Z"
-    description: incrementals-publisher
-    digest: 915a36312b7e1e15fa9b628cfcbf8be76ce42df1abbbb8531fb3b5cd3f1d165a
-    name: incrementals-publisher
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/incrementals-publisher-0.3.0/incrementals-publisher-0.3.0.tgz
-    version: 0.3.0
-  javadoc:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-11-05T15:34:49.65405509Z"
-    description: A Helm chart for javadoc.jenkins.io
-    digest: 30045070ca718f63a7bf3cbe1acd955cea4dc7dd507acb035e17553b8fd3de4d
-    maintainers:
-    - name: timja
-    name: javadoc
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/javadoc-0.0.1/javadoc-0.0.1.tgz
-    version: 0.0.1
-  jenkins-wiki-exporter:
-  - apiVersion: v1
-    created: "2021-11-05T15:34:49.869533556Z"
-    description: A Helm chart that deploy a service to convert Jenkins plugin information
-      fro confluence into markdown
-    digest: 38ea633b750c9b19352e52991d6d09131329fe821e83f6c09725c84fa126bf24
-    name: jenkins-wiki-exporter
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/jenkins-wiki-exporter-0.5.0/jenkins-wiki-exporter-0.5.0.tgz
-    version: 0.5.0
-  jenkinsio:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-11-05T15:34:50.089049448Z"
-    description: A Helm chart for jenkins.io
-    digest: bbb4fd0155b9e832f3f04aa243de892034c056cf413ff5bdb24d4132c2cbd5c4
-    maintainers:
-    - name: timja
-    name: jenkinsio
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/jenkinsio-0.0.23/jenkinsio-0.0.23.tgz
-    version: 0.0.23
-  keycloak:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-11-05T15:34:50.288295012Z"
-    description: Non Admin keycloak interface
-    digest: 4c60c60606aaf52206f7ba5355a5a83659c9963badb40d7a85bcb4aad77d4cc7
-    name: keycloak
-    type: application
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/keycloak-0.1.0/keycloak-0.1.0.tgz
-    version: 0.1.0
-  mirrorbits:
-  - apiVersion: v1
-    appVersion: v0.5.1
-    created: "2021-11-05T15:34:50.500747659Z"
-    description: Mirrobits helm chart for Kubernetes
-    digest: 52c3652ebdc7df1d33ab84947e40d6dd5777afc35f5a5061b7aa5f26ec62f0d8
+    created: "2021-11-05T15:45:49.032365284Z"
+    description: A acme settings chart for Jenkins infra project
+    digest: 08c3fd80c3d58da89d4ec2d93775571a52536099a1bd5031436a8bdc358fa858
+    home: https://github.com/jenkins-infra/charts
     maintainers:
     - email: me@olblak.com
-      name: olblak
-    name: mirrorbits
+      name: Olblak
+      url: https://github.com/olblak
+    name: acme
     urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/mirrorbits-0.1.1/mirrorbits-0.1.1.tgz
-    version: 0.1.1
-  plugin-site:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-11-05T15:34:50.701781633Z"
-    description: A Helm chart for plugins.jenkins.io
-    digest: c66591760d6a7a677c24fa35c31b29b3e1a48a792902587f0f72466db070b2d9
-    maintainers:
-    - name: timja
-    - name: halkeye
-    name: plugin-site
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/plugin-site-0.0.3/plugin-site-0.0.3.tgz
-    version: 0.0.3
-  reports:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-11-05T15:34:50.906627532Z"
-    description: A Helm chart for reports.jenkins.io
-    digest: 304756271509f534d6582866ed97f730e2e8ce0701db812155eea0e881e9213b
-    maintainers:
-    - name: timja
-    name: reports
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/reports-0.0.1/reports-0.0.1.tgz
-    version: 0.0.1
-  uplink:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-11-05T15:34:51.098787851Z"
-    description: A Helm chart for uplink.jenkins.io
-    digest: 4920a2e11fb8c6b8006b0189b4c5361a6c68193f40ba8e66ca1d34b6dc5a38b2
-    maintainers:
-    - name: olblak
-    name: uplink
-    urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/uplink-0.1.0/uplink-0.1.0.tgz
+    - https://github.com/SarveshLimaye/public-charts/releases/download/acme-0.1.0/acme-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-05T15:34:51.098794551Z"
+  chatbot:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-11-05T15:45:49.173901811Z"
+    description: A Helm chart for plugins.jenkins.io
+    digest: abd397899427ec24631f30d451279c076ce4023ecf496144b47cc62c250c5bac
+    maintainers:
+    - name: timja
+    - name: slide
+    name: chatbot
+    urls:
+    - https://github.com/SarveshLimaye/public-charts/releases/download/chatbot-0.0.1/chatbot-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-11-05T15:45:49.173908412Z"
