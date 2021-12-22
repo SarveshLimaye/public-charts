@@ -3,14 +3,25 @@ entries:
   plugin-site:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-08T15:41:48.839824323Z"
+    created: "2021-12-22T11:24:49.74381723Z"
     description: A Helm chart for plugins.jenkins.io
-    digest: a6e008319f209b93ecc6ca6d7c7001e9493bc8ddc6614251fe58a12968aafd96
+    digest: f71313bcb85a8effb6f9f2c130dad0c45521826a5f0d1187aaafb318fbc27c8b
     maintainers:
     - name: timja
     - name: halkeye
     name: plugin-site
     urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/plugin-site-0.0.4/plugin-site-0.0.4.tgz
-    version: 0.0.4
-generated: "2021-12-08T15:41:48.839828324Z"
+    - https://github.com/SarveshLimaye/public-charts/releases/download/plugin-site-0.0.5/plugin-site-0.0.5.tgz
+    version: 0.0.5
+  plugin-site-issues:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-12-22T11:24:49.919240593Z"
+    description: plugin-site-issues
+    digest: 8440f0756991f916fa1920b3f367ca9ec9f75ade041e10b98832faaef4617ccc
+    name: plugin-site-issues
+    type: application
+    urls:
+    - https://github.com/SarveshLimaye/public-charts/releases/download/plugin-site-issues-0.1.2/plugin-site-issues-0.1.2.tgz
+    version: 0.1.2
+generated: "2021-12-22T11:24:49.919250093Z"
