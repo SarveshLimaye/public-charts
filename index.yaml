@@ -1,27 +1,68 @@
 apiVersion: v1
 entries:
-  plugin-site:
+  custom-distribution-service:
+  - apiVersion: v1
+    created: "2021-12-30T09:28:41.506004268Z"
+    description: custom-distribution-service
+    digest: ccb2368fed6b11fc23801d4cd215ca2ac4cb1c4a55b01d6d3c4f26d919ef6dd1
+    name: custom-distribution-service
+    urls:
+    - https://github.com/SarveshLimaye/public-charts/releases/download/custom-distribution-service-0.3.1/custom-distribution-service-0.3.1.tgz
+    version: 0.3.1
+  incrementals-publisher:
+  - apiVersion: v1
+    created: "2021-12-30T09:28:41.621050534Z"
+    description: incrementals-publisher
+    digest: 0c1a6de49a212cf3cf4f8118e510e715852916001d11e59e5cc2a7b52b25252b
+    name: incrementals-publisher
+    urls:
+    - https://github.com/SarveshLimaye/public-charts/releases/download/incrementals-publisher-0.4.2/incrementals-publisher-0.4.2.tgz
+    version: 0.4.2
+  ldap:
+  - apiVersion: v1
+    created: "2021-12-30T09:28:41.731002723Z"
+    description: A Helm chart for ldap.jenkins.io
+    digest: 91220e327cb60d06ff26b52082cb3dc4ce950fefd10d768203518e8a79603c99
+    maintainers:
+    - name: olblak
+    name: ldap
+    urls:
+    - https://github.com/SarveshLimaye/public-charts/releases/download/ldap-0.1.2/ldap-0.1.2.tgz
+    version: 0.1.2
+  mirrorbits:
+  - apiVersion: v1
+    appVersion: v0.5.1
+    created: "2021-12-30T09:28:41.85002497Z"
+    description: Mirrobits helm chart for Kubernetes
+    digest: 327634980f3347df72f3e74b44e25bc3c0c37317edb2174b26c09ea91209323d
+    maintainers:
+    - email: me@olblak.com
+      name: olblak
+    name: mirrorbits
+    urls:
+    - https://github.com/SarveshLimaye/public-charts/releases/download/mirrorbits-0.2.2/mirrorbits-0.2.2.tgz
+    version: 0.2.2
+  uplink:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-12-22T11:24:49.74381723Z"
-    description: A Helm chart for plugins.jenkins.io
-    digest: f71313bcb85a8effb6f9f2c130dad0c45521826a5f0d1187aaafb318fbc27c8b
+    created: "2021-12-30T09:28:41.959054264Z"
+    description: A Helm chart for uplink.jenkins.io
+    digest: e2c75d4485ba8319400e9137e111510f178de5adf7750179c1f00df770c7b7ce
     maintainers:
-    - name: timja
-    - name: halkeye
-    name: plugin-site
+    - name: olblak
+    name: uplink
     urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/plugin-site-0.0.5/plugin-site-0.0.5.tgz
-    version: 0.0.5
-  plugin-site-issues:
+    - https://github.com/SarveshLimaye/public-charts/releases/download/uplink-0.1.1/uplink-0.1.1.tgz
+    version: 0.1.1
+  wiki:
   - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2021-12-22T11:24:49.919240593Z"
-    description: plugin-site-issues
-    digest: 8440f0756991f916fa1920b3f367ca9ec9f75ade041e10b98832faaef4617ccc
-    name: plugin-site-issues
+    appVersion: 0.0.7
+    created: "2021-12-30T09:28:42.07824901Z"
+    description: A Helm chart for wiki static content
+    digest: 09dd5ba3180bbd36c9a597034d71cbbd806c4d194d7a5a3d1a16fe6bb9bb9115
+    name: wiki
     type: application
     urls:
-    - https://github.com/SarveshLimaye/public-charts/releases/download/plugin-site-issues-0.1.2/plugin-site-issues-0.1.2.tgz
-    version: 0.1.2
-generated: "2021-12-22T11:24:49.919250093Z"
+    - https://github.com/SarveshLimaye/public-charts/releases/download/wiki-0.3.1/wiki-0.3.1.tgz
+    version: 0.3.1
+generated: "2021-12-30T09:28:42.07825501Z"
